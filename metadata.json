@@ -1,0 +1,8 @@
+{
+	"name":"PrivateChat",
+	"description":"Private chat should really be private.\nThis module encrypts and decrypts guild chat, party chat, and Co-op chat.",
+	"author":"kerbybit",
+	"version":"1.6.4",
+	"requires": ["SettingsManager"],
+	"entry": "index.js"
+}

@@ -1,0 +1,171 @@
+[
+  {
+    "name": "PrivateChat",
+    "settings": [
+      {
+        "type": "toggle",
+        "name": "Global Toggle",
+        "value": true,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Show Watermark",
+        "value": true,
+        "hidden": false
+      },
+      {
+        "type": "button",
+        "name": "Reset Settings",
+        "text": "click",
+        "method": "/Function(\nfunction () {\n    PrivateChat.settings.reset();\n    PrivateChat.settings.load();\n}\n)/",
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "name": "Guild",
+    "settings": [
+      {
+        "type": "toggle",
+        "name": "Encrypt Guild Chat",
+        "value": true,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Decrypt Guild Chat",
+        "value": true,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Print Decrypted Chat",
+        "value": false,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Show Encrypted Text",
+        "value": true,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "name": "Party",
+    "settings": [
+      {
+        "type": "toggle",
+        "name": "Encrypt Party Chat",
+        "value": true,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Decrypt Party Chat",
+        "value": true,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Print Decrypted Chat",
+        "value": false,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Show Encrypted Text",
+        "value": true,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "name": "Co-op",
+    "settings": [
+      {
+        "type": "toggle",
+        "name": "Encrypt Co-op Chat",
+        "value": true,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Decrypt Co-op Chat",
+        "value": true,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Print Decrypted Chat",
+        "value": false,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Show Encrypted Text",
+        "value": true,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "name": "Private",
+    "settings": [
+      {
+        "type": "toggle",
+        "name": "Encrypt Private Chat",
+        "value": true,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Decrypt Private Chat",
+        "value": true,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Print Decrypted Chat",
+        "value": false,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Show Encrypted Text",
+        "value": true,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "name": "All",
+    "settings": [
+      {
+        "type": "toggle",
+        "name": "Encrypt All Chat",
+        "value": true,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Decrypt All Chat",
+        "value": true,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Print Decrypted Chat",
+        "value": false,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Show Encrypted Text",
+        "value": true,
+        "hidden": false
+      }
+    ]
+  }
+]
